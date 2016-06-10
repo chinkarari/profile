@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stage1</title>
+		<link rel="stylesheet" href="stage1.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto'>
+	</head>
+
+
+	<body>
+		<h1 class="heading-center">Stage1. Make a Web Page</h1>
+		<div class="row">
+			<div class="col-3">
+				<h2 class="heading-center">Table of Contents</h2>
+				<ol>
+					<li><a href="#lesson-1">Lesson 1 The Basics of the Web and HTML</a>
+						<ul>
+							<li><a href="#lesson-1-1">the World Wide Web</a></li>
+							<li><a href="#lesson-1-2">HTML</a></li>
+							<li><a href="#lesson-1-3">Tag</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-2">Lesson 2 Creating a Structured Document with HTML</a>
+						<ul>
+							<li><a href="#lesson-2-1">HTML-CSS-DOM</a></li>
+							<li><a href="#lesson-2-2">Box Structure</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-3">Lesson 3 Adding CSS Style to HTML Structure</a>
+						<ul>
+							<li><a href="#lesson-3-1">What is CSS?</a></li>
+							<li><a href="#lesson-3-2">Semantic Tags</a></li>
+							<li><a href="#lesson-3-3">Box in CSS</a></li>
+						</ul>
+					</li>
+				</ol>
+				<div class="prof">
+					<h3 class="heading-center">profile</h3>
+					<div class="image" >
+						<img src="IMG_5954.jpg" alt="photo of me" width="150" height="200">
+					</div>
+					<div class="description_me">
+						<p>Hello! I am Kazuhiro living in Japan. This May I graduated the university and now I am between jobs. I hope learning programming skill in Udacity help me open up new opportunities for my life.
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-9">
+				<div class="lesson">
+					<h2 class="heading-center" id="lesson-1">Lesson 1 The Basics of the Web and HTML</h2>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-1-1">the World Wide Web</h3>
+						<div class="concept-description">
+							<p>There is three components of the web; the computer(browser), the Internet and the servers.The Browser makes requests via the Internet to the servers. We use a protocol <em>http</em> to get pages from servers.</p>
+						</div>
+					</div>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-1-2">HTML</h3>
+						<div class="concept-description">
+							<p>HTML = "HyperText Markup Language"</p>
+							<p>HTML is made up of text content, markup to decide what it looks like, reference to other documents and links to other pages and the main contents on the web.</p>
+						</div>
+					</div>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-1-3">Tag</h3>
+						<div class="concept-description">
+							<p>To markup the text, we use tags. The basic structure of HTML is an <em>element</em> which is structured <em>&#60;tag name&#62; contents &#60;/tag name&#62;</em>. There are two kinds of tag; block and inline. Each tags define a block element and an inline element. Block elements take up the full available width and starts on a new line. Inline elements can occupy the same line and take up as much width as necessary.</p>
+							<p>block elements: &#60;div&#62;, &#60;h1&#62;-&#60;h6&#62;, &#60;p&#62;</P>
+							<p>inline elements: &#60;span&#62;, &#60;a&#62;, &#60;img&#62;
+						</div>
+					</div>
+				</div>
+
+				<div class="lesson">
+					<h2 class="heading-center" id="lesson-2">Lesson 2 Creating a Structured Document with HTML</h2>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-2-1">HTML-CSS-DOM</h3>
+						<div class="concept-description">
+							<p>A web page consists of HTML, CSS and DOM. HTML (HyperText Markup Language) gives the structure of a web page and the content of the page, CSS(Cascading Style Sheets) defines the style of the web page and DOM (Document Object Model) can access objects in HTML and the nodes in HTML are structured like a tree structure.</p>
+						</div>
+					</div>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-2-2">Box Structure</h3>
+						<div class="concept-description">
+							<p>Every element in a web page is defined as a box and it&apos;s important to understand the concept of the box for a web developer. To define the box, we uses a div tag.When we add the style to boxes, set a class attribute like a label.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="lesson">
+					<h2 class="heading-center" id="lesson-3">Lesson 3 Adding CSS Style to HTML Structure</h2>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-3-1">What is CSS?</h3>
+						<div class="concept-description">
+							<p>CSS stands for Cascading Style Sheets. Cascading means that rules apply every elements not only the element that CSS directly applied but also the all child&apos; elements of it. If you want to add CSS style to a web page, there are three ways.</P>
+								<ul>
+									<li>write CSS in the &lt;head&gt; tag</li>
+									<li>Link HTML to a CSS file</li>
+									<li>write style inline with HTML</li>
+								</ul>
+							<p>When we define a specific element to add style, we use a HTML tag or a class attribute as a selector.</p>
+							<p>There are a lot of function in CSS, so it is useful to refer <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS reference</a> when you add CSS style.</p>
+						</div>
+					</div>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-3-2">Semantic Tags</h3>
+						<div class="concept-description">
+							<p>Semantic tags are tags with a meaning. To use semantic tags, the browser and the developer can easily understand what the element describes. Using semantic tags helps search engines index the content of a web page.</p>
+						</div>
+					</div>
+					<div class="concept">
+						<h3 class="concept-title heading-center" id="lesson-3-3">Box in CSS</h3>
+						<div class="concept-description">
+							<p>All elements are structured as a box in HTML documents. The box consists of Margin, Border, Padding, Contents. We can set the box size in pixels and percentages.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
